@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the TunerA chromatic tuner browser extension. No data is collected or transmitted.">
+  <title>TunerA Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main class="doc">
+  <h1>Privacy Policy for TunerA</h1>
+  <p class="updated">Last updated: 2026-10-01</p>
+
+  <h2>Summary</h2>
+  <p>TunerA does not collect, store, or transmit any personal data. Audio from your microphone is analysed on your device, in memory, and is never recorded, saved, or sent anywhere.</p>
+
+  <h2>What the extension accesses</h2>
+
+  <h3>Microphone</h3>
+  <p>TunerA needs your microphone to detect the pitch of the sound around it. That is the entire purpose of the extension.</p>
+  <ul>
+    <li>The microphone is only active while the tuner is running. It starts when you press <strong>Start Tuner</strong> and stops when you press <strong>Stop Tuner</strong> or close the tab.</li>
+    <li>Audio is read frame by frame into a short in-memory buffer (under a tenth of a second at a time), analysed for its fundamental frequency, and then overwritten by the next frame.</li>
+    <li><strong>No audio is recorded, written to disk, or transmitted.</strong> There is no server to transmit it to.</li>
+    <li>Your browser asks for microphone permission separately and you can revoke it at any time in your browser's site settings.</li>
+  </ul>
+
+  <h3>Permissions</h3>
+  <p>The extension requests no browser permissions and stores nothing.</p>
+
+  <h2>What the extension does not do</h2>
+  <ul>
+    <li>No analytics, telemetry, crash reporting, or usage tracking.</li>
+    <li>No cookies, advertising identifiers, or fingerprinting.</li>
+    <li>No network requests of any kind. The extension has no host permissions and contacts no servers. It works fully offline.</li>
+    <li>No access to your browsing history, the content of your tabs, bookmarks, or any website you visit.</li>
+    <li>No data is sold, shared, or disclosed to third parties, because none is collected.</li>
+  </ul>
+
+  <h2>Data retention and deletion</h2>
+  <p>No data is retained, so there is nothing to delete.</p>
+
+  <h2>Children's privacy</h2>
+  <p>TunerA collects no data from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published on this page and the "Last updated" date above will change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <button type="button" class="email" data-u="geo.mih93" data-d="gmail.com">Show email</button></p>
+
+  <footer>TunerA is made by <a href="../../">George Mihailidis</a>.</footer>
+</main>
+<script src="../../email.js"></script>
+</body>
+</html>
