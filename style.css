@@ -94,4 +94,3 @@ li::marker { color: var(--accent); }
 .doc h2 { margin-top: 32px; }
 .doc h3 { margin: 18px 0 6px; }
 .doc .updated { color: var(--muted); font: 14px var(--mono); margin-top: 8px; }
-.doc footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
